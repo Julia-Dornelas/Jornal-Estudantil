@@ -72,10 +72,11 @@
                 <img class="card-img-top" src="../img-vozdoestudante/Carrosel2.png" alt="Imagem Card 1" />
             </div>
             <div class="card-body bg-success p-0 m-0">
-                <button type="submit" name="card" class="btn btn-success w-100 h-5 text-dark">
-                    <p class="text-left p-0 m-0" style="font-size: 30px;">“Acho desnecessario..”</p>
-                    <p class="text-right p-0 m-0">VER MAIS</p>
-                </button>
+                <a style="text-decoration: none;" href="CARD2.php">
+                    <button type="submit" name="card" class="btn btn-success w-100 h-5 text-dark">
+                        <p class="text-left p-0 m-0" style="font-size: 30px;">“Acho desnecessario..”</p>
+                        <p class="text-right p-0 m-0">VER MAIS</p>
+                    </button></a>
             </div>
         </div>
     </div>
@@ -87,10 +88,11 @@
                 <img class="card-img-top" src="../img-vozdoestudante/Card3.png" alt="Imagem Card 1" />
             </div>
             <div class="card-body bg-success p-0 m-0">
+            <a style="text-decoration: none;" href="CARD3.php">
                 <button type="submit" name="card" class="btn btn-success w-100 h-5 text-dark">
                     <p class="text-left p-0 m-0" style="font-size: 25px;">“O curso em si é perfeito, porém...”</p>
                     <p class="text-right p-0 m-0">VER MAIS</p>
-                </button>
+                </button></a>
             </div>
         </div>
     </div>
@@ -102,10 +104,11 @@
                 <img class="card-img-top" src="../img-vozdoestudante/Card4.png" alt="Imagem Card 1" />
             </div>
             <div class="card-body bg-success p-0 m-0">
+            <a style="text-decoration: none;" href="CARD4.php">
                 <button type="submit" name="card" class="btn btn-success w-100 h-5 text-dark">
                     <p class="text-left p-0 m-0" style="font-size: 30px;">“O IFTM precisa...”</p>
                     <p class="text-right p-0 m-0">VER MAIS</p>
-                </button>
+                </button></a>
             </div>
         </div>
     </div>
@@ -117,10 +120,12 @@
                 <img class="card-img-top" src="../img-vozdoestudante/Card5.png" alt="Imagem Card 1" />
             </div>
             <div class="card-body bg-success p-0 m-0">
+            <a style="text-decoration: none;" href="CARD5.php">
                 <button type="submit" name="card" class="btn btn-success w-100 h-5 text-dark">
                     <p class="text-left p-0 m-0" style="font-size: 19px;">“A comunicação entre alunos e professsores...”</p>
                     <p class="text-right p-0 m-0">VER MAIS</p>
-                </button>
+                </button></a>
+                </div>
             </div>
         </div>
     </div>
@@ -133,10 +138,11 @@
                 <img class="card-img-top" src="../img-vozdoestudante/Card6.png" alt="Imagem Card 1" />
             </div>
             <div class="card-body bg-success p-0 m-0">
+            <a style="text-decoration: none;" href="CARD6.php">
                 <button type="submit" name="card" class="btn btn-success w-100 h-5 text-dark">
                     <p class="text-left p-0 m-0" style="font-size: 30px;">“A estrutura da escola...”</p>
                     <p class="text-right p-0 m-0">VER MAIS</p>
-                </button>
+                </button></a>
             </div>
         </div>
     </div>
@@ -149,10 +155,11 @@
                 <img class="card-img-top" src="../img-vozdoestudante/Card7.png" alt="Imagem Card 1" />
             </div>
             <div class="card-body bg-success p-0 m-0">
+            <a style="text-decoration: none;" href="CARD7.php">
                 <button type="submit" name="card" class="btn btn-success w-100 h-5 text-dark">
                     <p class="text-left p-0 m-0" style="font-size: 30px;">“Minha experiência esta...”</p>
                     <p class="text-right p-0 m-0">VER MAIS</p>
-                </button>
+                </button></a>
             </div>
         </div>
     </div>
@@ -165,10 +172,11 @@
                 <img class="card-img-top" src="../img-vozdoestudante/Card8.png" alt="Imagem Card 1" />
             </div>
             <div class="card-body bg-success p-0 m-0">
+            <a style="text-decoration: none;" href="CARD8.php">
                 <button type="submit" name="card" class="btn btn-success w-100 h-5 text-dark">
                     <p class="text-left p-0 m-0" style="font-size: 30px;">“De fato muito...”</p>
                     <p class="text-right p-0 m-0">VER MAIS</p>
-                </button>
+                </button></a>
             </div>
         </div>
     </div>
@@ -180,10 +188,11 @@
                 <img class="card-img-top" src="../img-vozdoestudante/Card9.png" alt="Imagem Card 1" />
             </div>
             <div class="card-body bg-success p-0 m-0">
+            <a style="text-decoration: none;" href="CARD9.php">
                 <button type="submit" name="card" class="btn btn-success w-100 h-5 text-dark">
                     <p class="text-left p-0 m-0" style="font-size: 30px;">“É uma montanha russa...”</p>
                     <p class="text-right p-0 m-0">VER MAIS</p>
-                </button>
+                </button></a>
             </div>
         </div>
     </div>
@@ -199,10 +208,11 @@
                 <img class="card-img-top" src="../img-vozdoestudante/Card10.png" alt="Imagem Card 1" />
             </div>
             <div class="card-body bg-danger p-0 m-0">
+            <a style="text-decoration: none;" href="CARD10.php">
                 <button type="submit" name="card" class="btn btn-danger w-100 h-5 text-dark">
                     <p class="text-left p-0 m-0" style="font-size: 30px;">“Extraordinaria...”</p>
                     <p class="text-right p-0 m-0">VER MAIS</p>
-                </button>
+                </button></a>
             </div>
         </div>
     </div>
@@ -214,10 +224,11 @@
                 <img class="card-img-top" src="../img-vozdoestudante/Card11.png" alt="Imagem Card 1" />
             </div>
             <div class="card-body bg-danger p-0 m-0">
+            <a style="text-decoration: none;" href="CARD11.php">
                 <button type="submit" name="card" class="btn btn-danger w-100 h-5 text-dark">
                     <p class="text-left p-0 m-0" style="font-size: 30px;">“Boa, o IF é...”</p>
                     <p class="text-right p-0 m-0">VER MAIS</p>
-                </button>
+                </button></a>
             </div>
         </div>
     </div>
@@ -229,10 +240,11 @@
                 <img class="card-img-top" src="../img-vozdoestudante/Card12.png" alt="Imagem Card 1" />
             </div>
             <div class="card-body bg-danger p-0 m-0">
+            <a style="text-decoration: none;" href="CARD12.php">
                 <button type="submit" name="card" class="btn btn-danger w-100 h-5 text-dark">
                     <p class="text-left p-0 m-0" style="font-size: 30px;">“Foi uma experiência...”</p>
                     <p class="text-right p-0 m-0">VER MAIS</p>
-                </button>
+                </button></a>
             </div>
         </div>
     </div>
@@ -244,10 +256,11 @@
                 <img class="card-img-top" src="../img-vozdoestudante/Card13.png" alt="Imagem Card 1" />
             </div>
             <div class="card-body bg-danger p-0 m-0">
+            <a style="text-decoration: none;" href="CARD13.php">
                 <button type="submit" name="card" class="btn btn-danger w-100 h-5 text-dark">
                     <p class="text-left p-0 m-0" style="font-size: 30px;">“Ímpar; de muito...”</p>
                     <p class="text-right p-0 m-0">VER MAIS</p>
-                </button>
+                </button></a>
             </div>
         </div>
     </div>
@@ -259,10 +272,11 @@
                 <img class="card-img-top" src="../img-vozdoestudante/Card14.png" alt="Imagem Card 1" />
             </div>
             <div class="card-body bg-danger p-0 m-0">
+            <a style="text-decoration: none;" href="CARD14.php">
                 <button type="submit" name="card" class="btn btn-danger w-100 h-5 text-dark">
                     <p class="text-left p-0 m-0" style="font-size: 30px;">“So acho que...”</p>
                     <p class="text-right p-0 m-0">VER MAIS</p>
-                </button>
+                </button></a>
             </div>
         </div>
     </div>
