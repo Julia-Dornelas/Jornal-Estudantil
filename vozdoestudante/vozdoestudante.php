@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-BR" >
 
 <head>
     <?php include "../includes/head.php"; ?>
@@ -7,7 +7,7 @@
     <title>Voz do Estudante</title>
 </head>
 
-<body>
+<body style="height: 100vh;">
     <?php include "../includes/header.php"; ?>
 
     <h4 class="text-center p-3 font-weight-bold g-font-40">Voz do Estudante</h4>
