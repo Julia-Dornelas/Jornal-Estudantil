@@ -12,4 +12,4 @@
     </div>
     <p class="text-center text-white text-center-justify" style="font-size: small;">© 2024. Todos os direitos reservados a Gabriel Henrique,
         Gabryel Vaz, Giovanna Cassiano, Gustavo Anthony e Júlia Dornelas.</p>
-</div>
+</div>  

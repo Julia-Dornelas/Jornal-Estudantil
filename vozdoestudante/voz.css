@@ -1,0 +1,42 @@
+@media (min-width: 770px) {
+    
+    .g-cards{
+        margin: auto;
+        max-width: 80%;
+    }
+    
+    .g-coluna{
+        display: flex;
+        justify-content: space-around;
+        padding: 0px 40px;
+    }
+
+    .g-font-20{
+        font-size: 20px;
+    }
+
+    .g-font-25{
+        font-size: 25px;
+    }
+
+    .g-font-40{
+        font-size: 40px;
+    }
+
+    .img-card15{
+        height: 230px;
+    }
+
+    .Tam-Carrosel{
+      justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    .carrosel{
+        
+        width: 50%;
+    }   
+
+    
+  } 

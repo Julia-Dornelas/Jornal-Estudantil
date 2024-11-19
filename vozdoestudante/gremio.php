@@ -3,6 +3,7 @@
 
 <head>
     <?php include "../includes/head.php"; ?>
+    <link rel="stylesheet" href="voz.css">
     <title>Gremio Estudantil</title>
 </head>
 
