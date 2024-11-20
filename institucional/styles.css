@@ -74,13 +74,33 @@
         border: 2px solid black;
         filter: brightness(0.9);
         /* Menos de 1 escurece, mais de 1 clareia */
-
+        @media only screen and (max-width: 1100px) {
+            height: 700px;
+        }
+        @media only screen and (max-width: 800px) {
+            height: 550px;
+        }
+        @media only screen and (max-width: 600px) {
+            height: 400px;
+        }
+        @media only screen and (max-width: 500px) {
+            height: 300px;
+        }
     }
 
     /* Estilo para a legenda do carrossel */
     .carousel-caption h5 {
         text-shadow: 0.3px 0.3px;
         font-size: 30px;
+        @media only screen and (max-width: 1100px) {
+            font-size: 20px;
+        }
+        @media only screen and (max-width: 800px) {
+            font-size: 16px;
+        }
+        @media only screen and (max-width: 600px) {
+            font-size: 14px;
+        }
     }
 
     /* Destaques */
@@ -90,6 +110,13 @@
         height: 100vh;
         background-color: #393535;
         display: flex;
+        @media only screen and (max-width: 920px) {
+            display: block;
+            justify-content: center;
+            text-align: center;
+            width: 100%;
+            height: auto;
+        }
     }
 
     .left,
@@ -99,6 +126,10 @@
         height: 100%;
         width: 50%;
         padding-top: 5px;
+        @media only screen and (max-width: 920px) {
+            width: 100%;
+            height: auto;
+        }
     }
 
     .ritgh h5 {
@@ -129,6 +160,9 @@
         /* Garantir que a imagem cubra o contêiner sem deformar */
         filter: brightness(0.9);
         /* Menos de 1 escurece, mais de 1 clareia */
+        @media only screen and (max-width: 500px) {
+            height: 300px;
+        }
     }
 
     .rigth-img {
@@ -140,6 +174,7 @@
         display: flex;
         position: relative;
         /* Necessário para posicionar as legendas */
+
     }
 
     .rigth-img img {
@@ -151,6 +186,9 @@
         /* Garantir que a imagem cubra o contêiner sem deformar */
         filter: brightness(1);
         /* Menos de 1 escurece, mais de 1 clareia */
+        @media only screen and (max-width: 500px) {
+            height: 300px;
+        }
     }
 
     /* Estilo para a legenda das imagens */
@@ -170,6 +208,9 @@
         color: white;
         text-align: center;
         justify-content: center;
+        @media only screen and (max-width: 800px) {
+            font-size: 16px;
+        }
     }
 
     /* Estilo para as imagens da coluna esquerda e direita */
@@ -314,40 +355,48 @@
         margin-bottom: 20px;
         justify-content: center;
         text-align: center;
+        @media only screen and (max-width: 400px) {
+            font-size: 18px;
+        }
     }
 
     .noticias-conteudo {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 20px;
+        margin-bottom: 10px;
+        padding-bottom: 5px;
         @media only screen and (max-width: 600px) {
             display: block;
         }
     }
 
     .noticia-item {
-        display: flex;
+        display: block;
         gap: 15px;
         padding-bottom: 15px;
         align-items: center;
-        margin: 25px;
+        justify-content: center;
+        text-align: center;
+        margin: 20px;
         @media only screen and (max-width: 600px) {
-            display: block;
             margin: 15px;
-            justify-content: center;
-            text-align: center;
         }
     }
 
     .noticia-item img {
-        width: 30%;
-        height: 300px;
+        width: 70%;
+        height: 80%;
         border-radius: 8px;
         filter: brightness(0.9);
         /* Menos de 1 escurece, mais de 1 clareia */
         @media only screen and (max-width: 600px) {
-            width: 250px;
+            width: 350px;
             height: 250px;
+        }
+        @media only screen and (max-width: 400px) {
+            width: 250px;
+            height: 200px;
         }
     }
 
@@ -356,12 +405,19 @@
         font-weight: bold;
         text-align: center;
         margin: 0;
+        @media only screen and (max-width: 1045px) {
+            font-size: 18px;
+        }
         @media only screen and (max-width: 600px) {
-            font-size: 12px;
+            font-size: 16px;
+        }
+        @media only screen and (max-width: 400px) {
+            font-size: 14px;
         }
     }
 
     .ver-mais {
+        margin-top: 50px;
         text-align: center;
         padding-top: 20px;
         border-top: 2px solid black;
@@ -387,7 +443,7 @@
         background-color: #fff;
         text-align: center;
     }
-
+    
     .videos-titulo {
         display: flex;
         align-items: center;
@@ -395,83 +451,62 @@
         padding: 10px 0;
         border-bottom: 2px solid black;
         margin-bottom: 20px;
-        @media only screen and (max-width: 600px) {
-            font-size: 16px;
-        }
     }
-
+    
     .videos-titulo h2 {
         font-size: 24px;
         font-weight: bold;
         flex: 1;
         text-align: center;
     }
-
+    
     .videos-conteudo {
         display: flex;
-        align-items: center;
         justify-content: center;
-        gap: 10px;
+        overflow-x: auto;
+        scroll-behavior: smooth;
         padding-bottom: 20px;
         border-bottom: 2px solid black;
+        gap: 20px;
     }
-
+    
     .videos-container {
         display: flex;
-        justify-content: center;
-        text-align: center;
         gap: 20px;
         overflow-x: auto;
         scroll-behavior: smooth;
         width: 100%;
-        height: 320px;
-        /* Ocultar a barra de rolagem vertical */
-        scrollbar-width: none;
-        /* Firefox */
-        @media only screen and (max-width: 600px) {
-            height: 215px;
-        }
+        scrollbar-width: none; /* Firefox */
     }
-
+    
     .videos-container::-webkit-scrollbar {
-        display: none;
-        /* Chrome, Safari e Edge */
+        display: none; /* Chrome, Safari e Edge */
     }
-
+    
     .videos-blocos {
-        width: 400px;
-        height: 220px;
-
-        @media only screen and (min-width: 600px) {
-            width: 205px;
-            height: 180px;
-            justify-content: center;
-            text-align: center;
-        }
+        flex: 0 0 400px;
+        height: auto;
     }
-
+    
     .videos-blocos iframe {
-        height: 250px;
-        width: 400px;
+        width: 100%;
         border: 1px solid black;
         border-radius: 10px;
         transition: transform 0.2s;
-        object-fit: cover;
         filter: brightness(0.9);
-        /* Menos de 1 escurece, mais de 1 clareia */
-        @media only screen and (max-width: 600px) {
-            width: 200px;
-            height: 150px;
-        }
     }
-
+    
+    .videos-blocos iframe:hover {
+        transform: scale(1.05);
+    }
+    
     .videos-blocos p {
-        font-size: 20px;
-        @media only screen and (max-width: 600px) {
-            font-size: 12px;
-        }
+        font-size: 16px;
+        margin-top: 10px;
+        text-align: center;
     }
-
+    
+    /* Botões de navegação */
     .seta-esquerda,
     .seta-direita {
         background: none;
@@ -481,11 +516,31 @@
         color: #000;
         padding: 5px;
     }
-
+    
     .seta-esquerda:hover,
     .seta-direita:hover {
         transform: scale(1.2);
     }
+    
+    /* Media Queries */
+    @media (max-width: 600px) {
+        .videos-titulo h2 {
+            font-size: 18px;
+        }
+    
+        .videos-blocos {
+            flex: 0 0 200px;
+        }
+    
+        .videos-blocos iframe {
+            height: 150px;
+        }
+    
+        .videos-blocos p {
+            font-size: 12px;
+        }
+    }
+    
 
     /*Seção de Redes Fim*/
 

@@ -147,11 +147,11 @@
                 <h2>Últimas Notícias</h2>
             </div>
             <div class="noticias-conteudo">
-                <div class="noticia-item imp">
+                <div class="noticia-item">
                     <img src="https://virtualif.iftm.edu.br/sdsgov/controlador2/load.php?src=c42acfb2ba0032c5d9bdf8333fff625d&tipo=noticia" alt="Imagem da notícia 1">
                     <p>Feira Sabores e Saberes atraiu muitos visitantes e foi uma das grandes atrações do IV Conerer, no IFTM Campus Paracatu</p>
                 </div>
-                <div class="noticia-item par">
+                <div class="noticia-item">
                     <img src="https://virtualif.iftm.edu.br/sdsgov/controlador2/load.php?src=c96a1ac8f1f34cc81d1792d446308c16&tipo=noticia" alt="Imagem da notícia 2">
                     <p>Dança afro-brasileira apresentada por estudantes do Campus Uberlândia Centro celebra força das mulheres pretas e encanta público no Conerer</p>
                 </div>
@@ -159,23 +159,23 @@
                     <img src="https://virtualif.iftm.edu.br/sdsgov/controlador2/load.php?src=6cea01edaff77cc405cdad67a803e2f4&tipo=noticia" alt="Imagem da notícia 3">
                     <p>Vem aí o “Universo IFTM”, uma união dos eventos de ensino, pesquisa, inovação e extensão</p>
                 </div>
-                <div class="noticia-item par">
+                <div class="noticia-item">
                     <img src="https://virtualif.iftm.edu.br/sdsgov/controlador2/load.php?src=ea4e1119380e052bfc86fc8eb9e98f67&tipo=noticia" alt="Imagem da notícia 4">
                     <p>Biblioteca do Campus Patrocinio celebra a Semana Nacional do Livro e da Biblioteca com o tema "Biblioteca em Cena"</p>
                 </div>
-                <div class="noticia-item imp">
+                <div class="noticia-item">
                     <img src="https://virtualif.iftm.edu.br/sdsgov/controlador2/load.php?src=c2ce59d0aad0ea8de11ea999fe963783&tipo=noticia" alt="Imagem da notícia 5">
                     <p>Edição 2024 do Conerer inicia sua programação em Paracatu e evidencia história de resistência e ancestralidade</p>
                 </div>
-                <div class="noticia-item par">
+                <div class="noticia-item">
                     <img src="https://virtualif.iftm.edu.br/sdsgov/controlador2/load.php?src=2a740a10183f03293238c6ff264f47b6&tipo=noticia" alt="Imagem da notícia 6">
                     <p>'Halloween de los Muertos' no Campus Patrocínio: evento solidário promove a arrecadação de absorventes para pessoas em situação de vulnerabilidade social e de gênero</p>
                 </div>
-                <div class="noticia-item imp">
+                <div class="noticia-item">
                     <img src="https://virtualif.iftm.edu.br/sdsgov/controlador2/load.php?src=73f35d614e88b94c3d021bb20d72b922&tipo=noticia" alt="Imagem da notícia 7">
                     <p>Práticas Pedagógicas em Ação: Evento promove experiência educacional e cultural para estudantes do IFTM Campus Uberaba</p>
                 </div>
-                <div class="noticia-item par">
+                <div class="noticia-item">
                     <img src="https://virtualif.iftm.edu.br/sdsgov/controlador2/load.php?src=4106cdbdde854326df42f60f574d1c72&tipo=noticia" alt="Imagem da notícia 8">
                     <p>IFTM abre vagas para cursos de idiomas gratuitos e estão disponíveis 80 vagas no Campus Uberlândia Centro</p>
                 </div>
