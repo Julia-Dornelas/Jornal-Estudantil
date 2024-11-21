@@ -1,9 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&family=Quicksand:wght@300..700&display=swap');
+
 .img-sobre{
     width: 920px;
 }
 .img-sobreif{
     width: 1020px;
 }
-h4{
-    margin: 20px;
+.verdinho{
+    color: green;
+}
+h4{ 
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+h6 {
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-indent: 30px;  /* Define o recuo de 30 pixels na primeira linha do parágrafo */
+}
+
+p{
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin: 40px;
+    text-indent: 30px;  /* Define o recuo de 30 pixels na primeira linha do parágrafo */
 }
