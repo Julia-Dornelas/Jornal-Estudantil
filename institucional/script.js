@@ -4,7 +4,6 @@ function scrollLeftIcons() {
     if (container) {
         container.scrollBy({
             left: -200, // Valor de rolagem ajustado para rolar para a esquerda
-            behavior: 'smooth'
         });
     }
 }
@@ -25,7 +24,7 @@ function scrollLeft() {
     const container = document.getElementById('videos-container');
     if (container) {
         container.scrollBy({
-            left: -400, // Valor de rolagem ajustado para rolar para a esquerda
+            left: -200, // Valor de rolagem ajustado para rolar para a esquerda
             behavior: 'smooth'
         });
     }

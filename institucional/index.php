@@ -27,23 +27,27 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="https://virtualif.iftm.edu.br/sdsgov/controlador2/load.php?src=70bc3f31a0224b951f947010bf3a540d&tipo=noticia" class="d-block w-1832" alt="Primeiro Slide">
-                        <div class="carousel-caption">
-
-                            <h5><a href="https://virtualif.iftm.edu.br/noticias/2024/11/19/pro-reitores-dos-institutos-federais-de-minas-gerais-discutem-parcerias-estrategicas-e-apresentam-demandas-a-fapemig/">Pró-reitores dos Institutos Federais de Minas Gerais discutem parcerias estratégicas e apresentam demandas à FAPEMIG</a></h5>
-
-                        </div>
+                        <a href="#">
+                            <div class="carousel-caption">
+                                <h5>Pró-reitores dos Institutos Federais de Minas Gerais discutem parcerias estratégicas e apresentam demandas à FAPEMIG</h5>
+                            </div>
+                        </a>
                     </div>
                     <div class="carousel-item">
                         <img src="https://virtualif.iftm.edu.br/sdsgov/controlador2/load.php?src=66ce48e5896519e38f6b01d4682c4dd7&tipo=noticia" class="d-block w-1832" alt="Segundo Slide">
-                        <div class="carousel-caption">
-                            <h5 href="https://virtualif.iftm.edu.br/noticias/2024/11/14/roda-de-conversa-vozes-do-negocio-promove-troca-de-experiencias-entre-empresarios-e-alunos-do-iftm-campus-uberaba/">Roda de Conversa "Vozes do Negócio" promove troca de experiências entre empresários e alunos do IFTM Campus Uberaba</h5>
-                        </div>
+                        <a href="#">
+                            <div class="carousel-caption">
+                                <h5 href="https://virtualif.iftm.edu.br/noticias/2024/11/14/roda-de-conversa-vozes-do-negocio-promove-troca-de-experiencias-entre-empresarios-e-alunos-do-iftm-campus-uberaba/">Roda de Conversa "Vozes do Negócio" promove troca de experiências entre empresários e alunos do IFTM Campus Uberaba</h5>
+                            </div>
+                        </a>
                     </div>
                     <div class="carousel-item">
                         <img src="https://virtualif.iftm.edu.br/sdsgov/controlador2/load.php?src=e950ff43690dc0bc1be6f1bd4eb37401&tipo=noticia" class="d-block w-1832" alt="Terceiro Slide">
-                        <div class="carousel-caption">
-                            <h5>Oficina "Do currículo à contratação: Apresentação profissional ao mercado" prepara alunos de Conceição das Alagoas para o mundo do trabalho</h5>
-                        </div>
+                        <a href="#">
+                            <div class="carousel-caption">
+                                <h5>Oficina "Do currículo à contratação: Apresentação profissional ao mercado" prepara alunos de Conceição das Alagoas para o mundo do trabalho</h5>
+                            </div>
+                        </a>
                     </div>
                     <!-- Adicione mais slides conforme necessário -->
                 </div>
@@ -112,22 +116,22 @@
             <div class="redes-conteudo">
                 <div class="icons-container" id="icons-container">
                     <!-- Substitua pelas imagens reais -->
-                    <a href=""><img src="https://yt3.googleusercontent.com/ytc/AIdro_mbK-vxMIx7mnoiYqqhT9JjqBHeiiIjil9r2GFL4qy81Q=s176-c-k-c0x00ffffff-no-rj-mo" alt="Logo 1"></a>
-                    <a href=""><img src="https://yt3.ggpht.com/0WYy9ySqxozhG1jjGPL0mAZcC5wWD7D3tPFqEzRREKPZfO_YRRkO2laEHAp5NCB2I4z_XfzVPQ=s176-c-k-c0x00ffffff-no-rj-mo" alt="Logo 1"></a>
-                    <a href=""><img src="https://yt3.ggpht.com/jrYlKQfjKvJeVOwKwFOFrsn1bOZT1u1_xcwg7PUQ6TFPn39p0FrEfHZ9unhlAv-t93Q_RmYHsg=s176-c-k-c0x00ffffff-no-rj-mo" alt="Logo 1"></a>
-                    <a href=""><img src="https://yt3.googleusercontent.com/ytc/AIdro_nS0TF-uGIZksEUVQ8DkdT9vAOgSLW1MzUvM2ovjQJt3Q=s176-c-k-c0x00ffffff-no-rj-mo" alt="Logo 1"></a>
-                    <a href=""><img src="https://yt3.ggpht.com/ialqlyjQtiOXWwE41eeqS1gJKjLbc9rqaEk3iZC0zVlrmKnszCcfuzwB-T1vK75FzwGYG250-A=s176-c-k-c0x00ffffff-no-rj-mo" alt="Logo 1"></a>
-                    <a href=""><img src="https://yt3.ggpht.com/sOqEYE5aAtGXGaHO5vTCOFHA2h8GDDZ1FxuhpR8mlUBPwUxZlgfXDPVyckz2UMGPksBgYBlMmK0=s176-c-k-c0x00ffffff-no-rj-mo" alt="Logo 1"></a>
-                    <a href=""><img src="https://yt3.googleusercontent.com/ytc/AIdro_mGCnVyegZc6-SoXzSOFI4VEv6kldQwXuLj5yvFAVhn-w=s176-c-k-c0x00ffffff-no-rj-mo" alt="Logo 1"></a>
-                    <a href=""><img src="https://yt3.googleusercontent.com/ytc/AIdro_kKdfr8n5Pw1xoBaQHd8xbpiU11bC1NB8OGw-0MGa8D5w=s176-c-k-c0x00ffffff-no-rj-mo" alt="Logo 1"></a>
-                    <a href=""><img src="https://yt3.googleusercontent.com/ytc/AIdro_mnZj15Hxx3yaO2W-Rs3lF0S8flGDVNhmn7NDxrfCzK2w=s176-c-k-c0x00ffffff-no-rj-mo" alt="Logo 1"></a>
-                    <a href=""><img src="https://yt3.googleusercontent.com/ytc/AIdro_m2zFvimL5WKhc6ezE1rHsvcQWhS6OIMgoYQaZZtacdXw=s176-c-k-c0x00ffffff-no-rj-mo" alt="Logo 1"></a>
-                    <a href=""><img src="https://yt3.googleusercontent.com/ytc/AIdro_ky1_uYsmsD9xoLou14twc-ZZ8ienLS7wvgx3n_O6RzA60=s176-c-k-c0x00ffffff-no-rj-mo" alt="Logo 1"></a>
-                    <a href=""><img src="https://yt3.ggpht.com/HVwQMCY9Z3KRbKKZ67wPibBhIb4OYZZEYzv9k-2QsAXTvH8eJqIx2Ybe47zyTG0NTdnANDKf=s176-c-k-c0x00ffffff-no-rj-mo" alt="Logo 1"></a>
-                    <a href=""><img src="https://yt3.googleusercontent.com/ytc/AIdro_kLNVEtpKhUE0nEgJYZA6-nmlh4nOPYoLodKfspayv3VA=s176-c-k-c0x00ffffff-no-rj-mo" alt="Logo 1"></a>
-                    <a href=""><img src="https://yt3.ggpht.com/yxVqrHtjlxvFgYa_yirii9Z6JncJFNgfK37D1d7BE5WlfgsIUD2gJsiWBS-9sdQXdVAUJHnR=s176-c-k-c0x00ffffff-no-rj-mo" alt="Logo 1"></a>
-                    <a href=""><img src="https://yt3.ggpht.com/CEXvYQfwj4g49clW1_iCMxZB12oJDNhcYo0IohaoL_9qA14HYGlec47ss3o1hzSGIqamiPrW=s176-c-k-c0x00ffffff-no-rj-mo" alt="Logo 1"></a>
-                    <a href=""><img src="https://yt3.googleusercontent.com/ytc/AIdro_m7B-NKoVxokVjXLDDw43YNPdGxGb5Mo67iOZjWXaWYujA=s176-c-k-c0x00ffffff-no-rj-mo" alt="Logo 1"></a>
+                    <a href="#"><img src="https://yt3.googleusercontent.com/ytc/AIdro_mbK-vxMIx7mnoiYqqhT9JjqBHeiiIjil9r2GFL4qy81Q=s176-c-k-c0x00ffffff-no-rj-mo" alt="Logo 1"></a>
+                    <a href="#"><img src="https://yt3.ggpht.com/0WYy9ySqxozhG1jjGPL0mAZcC5wWD7D3tPFqEzRREKPZfO_YRRkO2laEHAp5NCB2I4z_XfzVPQ=s176-c-k-c0x00ffffff-no-rj-mo" alt="Logo 1"></a>
+                    <a href="#"><img src="https://yt3.ggpht.com/jrYlKQfjKvJeVOwKwFOFrsn1bOZT1u1_xcwg7PUQ6TFPn39p0FrEfHZ9unhlAv-t93Q_RmYHsg=s176-c-k-c0x00ffffff-no-rj-mo" alt="Logo 1"></a>
+                    <a href="#"><img src="https://yt3.googleusercontent.com/ytc/AIdro_nS0TF-uGIZksEUVQ8DkdT9vAOgSLW1MzUvM2ovjQJt3Q=s176-c-k-c0x00ffffff-no-rj-mo" alt="Logo 1"></a>
+                    <a href="#"><img src="https://yt3.ggpht.com/ialqlyjQtiOXWwE41eeqS1gJKjLbc9rqaEk3iZC0zVlrmKnszCcfuzwB-T1vK75FzwGYG250-A=s176-c-k-c0x00ffffff-no-rj-mo" alt="Logo 1"></a>
+                    <a href="#"><img src="https://yt3.ggpht.com/sOqEYE5aAtGXGaHO5vTCOFHA2h8GDDZ1FxuhpR8mlUBPwUxZlgfXDPVyckz2UMGPksBgYBlMmK0=s176-c-k-c0x00ffffff-no-rj-mo" alt="Logo 1"></a>
+                    <a href="#"><img src="https://yt3.googleusercontent.com/ytc/AIdro_mGCnVyegZc6-SoXzSOFI4VEv6kldQwXuLj5yvFAVhn-w=s176-c-k-c0x00ffffff-no-rj-mo" alt="Logo 1"></a>
+                    <a href="#"><img src="https://yt3.googleusercontent.com/ytc/AIdro_kKdfr8n5Pw1xoBaQHd8xbpiU11bC1NB8OGw-0MGa8D5w=s176-c-k-c0x00ffffff-no-rj-mo" alt="Logo 1"></a>
+                    <a href="#"><img src="https://yt3.googleusercontent.com/ytc/AIdro_mnZj15Hxx3yaO2W-Rs3lF0S8flGDVNhmn7NDxrfCzK2w=s176-c-k-c0x00ffffff-no-rj-mo" alt="Logo 1"></a>
+                    <a href="#"><img src="https://yt3.googleusercontent.com/ytc/AIdro_m2zFvimL5WKhc6ezE1rHsvcQWhS6OIMgoYQaZZtacdXw=s176-c-k-c0x00ffffff-no-rj-mo" alt="Logo 1"></a>
+                    <a href="#"><img src="https://yt3.googleusercontent.com/ytc/AIdro_ky1_uYsmsD9xoLou14twc-ZZ8ienLS7wvgx3n_O6RzA60=s176-c-k-c0x00ffffff-no-rj-mo" alt="Logo 1"></a>
+                    <a href="#"><img src="https://yt3.ggpht.com/HVwQMCY9Z3KRbKKZ67wPibBhIb4OYZZEYzv9k-2QsAXTvH8eJqIx2Ybe47zyTG0NTdnANDKf=s176-c-k-c0x00ffffff-no-rj-mo" alt="Logo 1"></a>
+                    <a href="#"><img src="https://yt3.googleusercontent.com/ytc/AIdro_kLNVEtpKhUE0nEgJYZA6-nmlh4nOPYoLodKfspayv3VA=s176-c-k-c0x00ffffff-no-rj-mo" alt="Logo 1"></a>
+                    <a href="#"><img src="https://yt3.ggpht.com/yxVqrHtjlxvFgYa_yirii9Z6JncJFNgfK37D1d7BE5WlfgsIUD2gJsiWBS-9sdQXdVAUJHnR=s176-c-k-c0x00ffffff-no-rj-mo" alt="Logo 1"></a>
+                    <a href="#"><img src="https://yt3.ggpht.com/CEXvYQfwj4g49clW1_iCMxZB12oJDNhcYo0IohaoL_9qA14HYGlec47ss3o1hzSGIqamiPrW=s176-c-k-c0x00ffffff-no-rj-mo" alt="Logo 1"></a>
+                    <a href="#"><img src="https://yt3.googleusercontent.com/ytc/AIdro_m7B-NKoVxokVjXLDDw43YNPdGxGb5Mo67iOZjWXaWYujA=s176-c-k-c0x00ffffff-no-rj-mo" alt="Logo 1"></a>
                 </div>
             </div>
         </section>
@@ -204,40 +208,28 @@
                 <div class="videos-container" id="videos-container">
                     <!-- Substitua pelos videos -->
                     <div class="videos-blocos">
-                        <a href="#">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/JbxCsMOBpqE?si=d6TxXPf3qnqtXY94" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            <p>Processo Seletivo IFTM 2025/1 - Cursos técnicos e graduação - Live tira-dúvidas: como se inscrever</p>
-                        </a>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/JbxCsMOBpqE?si=d6TxXPf3qnqtXY94" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <p>Processo Seletivo IFTM 2025/1 - Cursos técnicos e graduação - Live tira-dúvidas: como se inscrever</p>
                     </div>
                     <div class="videos-blocos">
-                        <a href="#">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/72cOQWNwarU?si=s35Jh3Yc9F8JzWXB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            <p>IFTM | Vídeo Institucional (Legendado em português)</p>
-                        </a>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/72cOQWNwarU?si=s35Jh3Yc9F8JzWXB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <p>IFTM | Vídeo Institucional (Legendado em português)</p>
                     </div>
                     <div class="videos-blocos">
-                        <a href="#">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/scCHNdo83sY?si=vXRyAsjEGKvQCgXK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            <p>História do IFTM Campus Patrocínio</p>
-                        </a>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/scCHNdo83sY?si=vXRyAsjEGKvQCgXK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <p>História do IFTM Campus Patrocínio</p>
                     </div>
                     <div class="videos-blocos">
-                        <a href="#">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/SXOz4luQ9bc?si=q6KVMzQOsN2VaKBh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            <p>CONCURSO IFTM + PLANEJAMENTO DE ESTUDOS</p>
-                        </a>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/SXOz4luQ9bc?si=q6KVMzQOsN2VaKBh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <p>CONCURSO IFTM + PLANEJAMENTO DE ESTUDOS</p>
                     </div>
                     <div class="videos-blocos">
-                        <a href="#">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/ed2Kwmjt0Ig?si=yYwXAJ95h6R1vJTZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            <p>II Encontro de Estudos Ambientais do IFTM</p>
-                        </a>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/ed2Kwmjt0Ig?si=yYwXAJ95h6R1vJTZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <p>II Encontro de Estudos Ambientais do IFTM</p>
                     </div>
                     <div class="videos-blocos">
-                        <a href="#">
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/14brB_AfDvs?si=-86zRTtjD54U35-9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            <p>IFTM - CAMPUS AVANÇADO UBERABA PARQUE TECNOLÓGICO</p>
-                        </a>
+                        <p>IFTM - CAMPUS AVANÇADO UBERABA PARQUE TECNOLÓGICO</p>
                     </div>
                 </div>
             </div>
