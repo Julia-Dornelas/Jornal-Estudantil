@@ -175,14 +175,6 @@
                     <img src="https://virtualif.iftm.edu.br/sdsgov/controlador2/load.php?src=2a740a10183f03293238c6ff264f47b6&tipo=noticia" alt="Imagem da notícia 6">
                     <p>'Halloween de los Muertos' no Campus Patrocínio: evento solidário promove a arrecadação de absorventes para pessoas em situação de vulnerabilidade social e de gênero</p>
                 </div>
-                <div class="noticia-item">
-                    <img src="https://virtualif.iftm.edu.br/sdsgov/controlador2/load.php?src=73f35d614e88b94c3d021bb20d72b922&tipo=noticia" alt="Imagem da notícia 7">
-                    <p>Práticas Pedagógicas em Ação: Evento promove experiência educacional e cultural para estudantes do IFTM Campus Uberaba</p>
-                </div>
-                <div class="noticia-item">
-                    <img src="https://virtualif.iftm.edu.br/sdsgov/controlador2/load.php?src=4106cdbdde854326df42f60f574d1c72&tipo=noticia" alt="Imagem da notícia 8">
-                    <p>IFTM abre vagas para cursos de idiomas gratuitos e estão disponíveis 80 vagas no Campus Uberlândia Centro</p>
-                </div>
             </div>
             <div class="ver-mais">
                 <a href="#">Ver mais</a>
@@ -192,21 +184,21 @@
         <!-- ADS -->
         <section class="ads">
             <div>
-                <img src="../img-institucional/ads/Novo Projeto (2).png" alt="anuncio-2">
+                <img src="https://agenzzia.com.br/template_base/images/agenzzia.svg" alt="anuncio-2">
             </div>
         </section>
         <!-- ADS-Fim -->
 
         <!-- Videos -->
+        <!-- Videos -->
         <section class="videos">
             <div class="videos-titulo">
-                <button class="seta-esquerda" onclick="scrollLeft()">←</button>
+                <button class="seta-esquerda-videos" onclick="scrollLeftVideos()">←</button>
                 <h2>Videos</h2>
-                <button class="seta-direita" onclick="scrollRight()">→</button>
+                <button class="seta-direita-videos" onclick="scrollRightVideos()">→</button>
             </div>
             <div class="videos-conteudo">
                 <div class="videos-container" id="videos-container">
-                    <!-- Substitua pelos videos -->
                     <div class="videos-blocos">
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/JbxCsMOBpqE?si=d6TxXPf3qnqtXY94" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                         <p>Processo Seletivo IFTM 2025/1 - Cursos técnicos e graduação - Live tira-dúvidas: como se inscrever</p>

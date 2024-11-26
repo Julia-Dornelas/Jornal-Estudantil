@@ -20,29 +20,38 @@ function scrollRightIcons() {
 }
 
 // Função para rolar para a esquerda no container de vídeos
-function scrollLeft() {
+function scrollLeftVideos() {
     const container = document.getElementById('videos-container');
     if (container) {
         container.scrollBy({
-            left: -200, // Valor de rolagem ajustado para rolar para a esquerda
+            left: -300, // Valor de rolagem ajustado para rolar para a esquerda
             behavior: 'smooth'
         });
     }
 }
 
 // Função para rolar para a direita no container de vídeos
-function scrollRight() {
+function scrollRightVideos() {
     const container = document.getElementById('videos-container');
     if (container) {
         container.scrollBy({
-            left: 200, // Valor de rolagem ajustado para rolar para a direita
+            left: 300, // Valor de rolagem ajustado para rolar para a direita
             behavior: 'smooth'
         });
     }
 }
 
+// Ativar eventos de rolagem suave nas setas de navegação para vídeos
+document.addEventListener('DOMContentLoaded', function() {
+    // Adiciona eventos de clique para as setas de vídeos
+    const leftArrowVideos = document.querySelector('.seta-esquerda-videos');
+    const rightArrowVideos = document.querySelector('.seta-direita-videos');
 
-// Ativar eventos de rolagem suave nas setas de navegação para ícones e vídeos
+    leftArrowVideos.addEventListener('click', scrollLeftVideos);
+    rightArrowVideos.addEventListener('click', scrollRightVideos);
+});
+
+// Ativar eventos de rolagem suave nas setas de navegação para ícones
 document.addEventListener('DOMContentLoaded', function() {
     // Adiciona eventos de clique para as setas de ícones
     const leftArrowIcons = document.querySelector('.seta-esquerda');
@@ -51,10 +60,4 @@ document.addEventListener('DOMContentLoaded', function() {
     leftArrowIcons.addEventListener('click', scrollLeftIcons);
     rightArrowIcons.addEventListener('click', scrollRightIcons);
 
-    // Adiciona eventos de clique para as setas de vídeos
-    const leftArrowVideos = document.querySelector('.seta-esquerda-videos');
-    const rightArrowVideos = document.querySelector('.seta-direita-videos');
-
-    leftArrowVideos.addEventListener('click', scrollLeftVideos);
-    rightArrowVideos.addEventListener('click', scrollRightVideos);
 });
