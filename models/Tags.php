@@ -3,7 +3,7 @@
 class Tag
 {
     private int $id_Tag;
-    private string $name_Tag;
+    private string $nome_Tag;
     private string $descricao_Tag;
 
     /**
@@ -27,17 +27,17 @@ class Tag
     /**
      * Get the value of name_Tag
      */
-    public function getNameTag(): string
+    public function getNomeTag(): string
     {
-        return $this->name_Tag;
+        return $this->nome_Tag;
     }
 
     /**
      * Set the value of name_Tag
      */
-    public function setNameTag(string $name_Tag): self
+    public function setNomeTag(string $nome_Tag): self
     {
-        $this->name_Tag = $name_Tag;
+        $this->nome_Tag = $nome_Tag;
 
         return $this;
     }
