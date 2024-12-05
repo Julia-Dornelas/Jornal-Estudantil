@@ -53,6 +53,33 @@ class CategoriaModel
             echo "Número: " . (int)$e->getCode();
         }
     }
+    public function updatePassword(Usuario $c)
+    {
+        try {
+            // Cria string SQL
+            $sql = "update $this->tabela set senha=? where id_Autor=?";
+            // Prepara conexão com banco de dados
+            $stmt = Conexao::getConn()->prepare($sql);
+            // Insere dados na consulta
+            $stmt->bindValue(1, $c->getSenha());
+            $stmt->bindValue(2, $c->getIdAutor());
+            // Executa código SQL no banco de dados
+            return $stmt->execute();
+        } catch (PDOException $e) {
+            echo "Erro: " . $e->getMessage();
+            echo " Número: " . (int)$e->getCode();
+        }
+    }
+
+    public function login(Usuario $c)
+    {
+        $stmt = Conexao::getConn()->prepare("select * from $this->tabela where email=? and senha=?");
+        $stmt->bindValue(1, $c->getEmailAutor());
+        $stmt->bindValue(2, $c->getSenha());
+        $stmt->setFetchMode(PDO::FETCH_CLASS, 'Autor');
+        $stmt->execute();
+        return $stmt->fetch();
+    }
     public function delete($id_Autor){
         try{
             $sql = "DELETE FROM $this->tabela WHERE id_Autor = ?";
