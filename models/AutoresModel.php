@@ -57,7 +57,7 @@ class AutorModel
     {
         try {
             // Cria string SQL
-            $sql = "update $this->tabela set senha=? where id_Autor=?";
+            $sql = "update $this->tabela set senha_Autor=? where id_Autor=?";
             // Prepara conexão com banco de dados
             $stmt = Conexao::getConn()->prepare($sql);
             // Insere dados na consulta
@@ -73,7 +73,7 @@ class AutorModel
 
     public function login(Usuario $c)
     {
-        $stmt = Conexao::getConn()->prepare("select * from $this->tabela where email=? and senha=?");
+        $stmt = Conexao::getConn()->prepare("select * from $this->tabela where email_Autor=? and senha_Autor=?");
         $stmt->bindValue(1, $c->getEmailAutor());
         $stmt->bindValue(2, $c->getSenhaAutor());
         $stmt->setFetchMode(PDO::FETCH_CLASS, 'Autor');
