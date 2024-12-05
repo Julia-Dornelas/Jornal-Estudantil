@@ -57,6 +57,33 @@ class CategoriaModel
             echo "Número: " . (int)$e->getCode();
         }
     }
+    public function updatePassword(Administrador $c)
+    {
+        try {
+            // Cria string SQL
+            $sql = "update $this->tabela set senha_Administrador=? where id_Administrador=?";
+            // Prepara conexão com banco de dados
+            $stmt = Conexao::getConn()->prepare($sql);
+            // Insere dados na consulta
+            $stmt->bindValue(1, $c->getSenhaAdministrador());
+            $stmt->bindValue(2, $c->getIdAdministrador());
+            // Executa código SQL no banco de dados
+            return $stmt->execute();
+        } catch (PDOException $e) {
+            echo "Erro: " . $e->getMessage();
+            echo " Número: " . (int)$e->getCode();
+        }
+    }
+
+    public function login(Administrador $c)
+    {
+        $stmt = Conexao::getConn()->prepare("select * from $this->tabela where email_Administrador=? and senha_Administrador=?");
+        $stmt->bindValue(1, $c->getEmailAdministrador());
+        $stmt->bindValue(2, $c->getSenhaAdministrador());
+        $stmt->setFetchMode(PDO::FETCH_CLASS, 'Administrador');
+        $stmt->execute();
+        return $stmt->fetch();
+    }
     public function delete($id_Administrador){
         try{
             $sql = "DELETE FROM $this->tabela WHERE id_Administrador = ?";
