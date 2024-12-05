@@ -71,7 +71,7 @@ class AutorModel
         }
     }
 
-    public function login(Usuario $c)
+    public function login(Autor $c)
     {
         $stmt = Conexao::getConn()->prepare("select * from $this->tabela where email_Autor=? and senha_Autor=?");
         $stmt->bindValue(1, $c->getEmailAutor());
