@@ -53,7 +53,7 @@ class AutorModel
             echo "Número: " . (int)$e->getCode();
         }
     }
-    public function updatePassword(Usuario $c)
+    public function updatePassword(Autor $c)
     {
         try {
             // Cria string SQL
@@ -61,7 +61,7 @@ class AutorModel
             // Prepara conexão com banco de dados
             $stmt = Conexao::getConn()->prepare($sql);
             // Insere dados na consulta
-            $stmt->bindValue(1, $c->getSenha());
+            $stmt->bindValue(1, $c->getSenhaAutor());
             $stmt->bindValue(2, $c->getIdAutor());
             // Executa código SQL no banco de dados
             return $stmt->execute();
@@ -75,7 +75,7 @@ class AutorModel
     {
         $stmt = Conexao::getConn()->prepare("select * from $this->tabela where email=? and senha=?");
         $stmt->bindValue(1, $c->getEmailAutor());
-        $stmt->bindValue(2, $c->getSenha());
+        $stmt->bindValue(2, $c->getSenhaAutor());
         $stmt->setFetchMode(PDO::FETCH_CLASS, 'Autor');
         $stmt->execute();
         return $stmt->fetch();
