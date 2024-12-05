@@ -54,7 +54,7 @@ class UsuarioModel
     {
         try {
             // Cria string SQL
-            $sql = "update $this->tabela set senha=? where id_Usuario=?";
+            $sql = "update $this->tabela set senha_Usuario=? where id_Usuario=?";
             // Prepara conexão com banco de dados
             $stmt = Conexao::getConn()->prepare($sql);
             // Insere dados na consulta
@@ -70,7 +70,7 @@ class UsuarioModel
 
     public function login(Usuario $c)
     {
-        $stmt = Conexao::getConn()->prepare("select * from $this->tabela where email=? and senha=?");
+        $stmt = Conexao::getConn()->prepare("select * from $this->tabela where email_Usuario=? and senha_Usuario=?");
         $stmt->bindValue(1, $c->getEmailUsuario());
         $stmt->bindValue(2, $c->getSenhaUsuario());
         $stmt->setFetchMode(PDO::FETCH_CLASS, 'Usuario');
