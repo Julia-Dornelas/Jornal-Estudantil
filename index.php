@@ -1,1 +1,1 @@
-<?php header("Location: vozdoestudante/");
+<?php header("Location: home/");
