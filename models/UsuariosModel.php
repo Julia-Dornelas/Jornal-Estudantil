@@ -77,7 +77,6 @@ class UsuarioModel
         $stmt->execute();
         return $stmt->fetch();
     }
-    }
     public function delete($id_Usuario){
         try{
             $sql = "DELETE FROM $this->tabela WHERE id_Usuario = ?";
