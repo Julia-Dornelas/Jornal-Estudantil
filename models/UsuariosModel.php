@@ -3,7 +3,7 @@
 require_once "Conexao.php";
 require_once "Usuarios.php";
 
-class CategoriaModel
+class UsuarioModel
 {
 
     public $tabela = "/*tabela*/";
@@ -58,8 +58,8 @@ class CategoriaModel
             // Prepara conexão com banco de dados
             $stmt = Conexao::getConn()->prepare($sql);
             // Insere dados na consulta
-            $stmt->bindValue(1, $c->getSenha());
-            $stmt->bindValue(2, $c->getId());
+            $stmt->bindValue(1, $c->getSenhaUsuario());
+            $stmt->bindValue(2, $c->getIdUsuario());
             // Executa código SQL no banco de dados
             return $stmt->execute();
         } catch (PDOException $e) {
@@ -72,7 +72,7 @@ class CategoriaModel
     {
         $stmt = Conexao::getConn()->prepare("select * from $this->tabela where email=? and senha=?");
         $stmt->bindValue(1, $c->getEmailUsuario());
-        $stmt->bindValue(2, $c->getSenha());
+        $stmt->bindValue(2, $c->getSenhaUsuario());
         $stmt->setFetchMode(PDO::FETCH_CLASS, 'Usuario');
         $stmt->execute();
         return $stmt->fetch();
