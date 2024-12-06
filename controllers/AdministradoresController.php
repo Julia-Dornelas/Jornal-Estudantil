@@ -1,6 +1,6 @@
 <?php
 
-require_once "../../models/AdministradoresModel.php";
+require_once "../models/AdministradoresModel.php";
 
 class AdministradoresController {
 
