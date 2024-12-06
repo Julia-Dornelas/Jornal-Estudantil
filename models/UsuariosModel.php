@@ -11,11 +11,12 @@ class UsuariosModel
     public function create(Usuario $c)
     {
         try {
-            $sql = "INSERT INTO $this->tabela (nome_Usuario, email_Usuario, senha_Usuario) VALUES (?,?,?)";
+            $sql = "INSERT INTO $this->tabela (nome_Usuario, email_Usuario, senha, dt_Criacao) VALUES (?,?,?,?)";
             $stmt = Conexao::getConn()->prepare($sql);
             $stmt->bindValue(1, $c->getNomeUsuario());
             $stmt->bindValue(2, $c->getEmailUsuario());
             $stmt->bindValue(3, $c->getSenhaUsuario());
+            $stmt->bindValue(4, $c->getDataCriacao());
             return $stmt->execute();
         } catch (PDOException $e) {
             echo "Erro: " . $e->getMessage();

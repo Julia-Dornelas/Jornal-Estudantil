@@ -10,12 +10,13 @@ class AutoresModel
 
     public function create(Autor $c){
         try{
-            $sql = "INSERT INTO $this->tabela (nome_Autor, email_Autor, senha_Autor, telefone_Autor, n_Publicacoes, classificacao) VALUES (?,?,?,?,0,0)";
+            $sql = "INSERT INTO $this->tabela (nome_Autor, email_Autor, senha, n_Publicacoes, classificacao, telefone_Autor, dt_Criacao) VALUES (?,?,?,?,0,0,?)";
             $stmt = Conexao::getConn()->prepare($sql);
             $stmt->bindValue(1, $c->getNomeAutor());
             $stmt->bindValue(2, $c->getEmailAutor());
             $stmt->bindValue(3, $c->getSenhaAutor());
             $stmt->bindValue(4, $c->getTelefoneAutor());
+            $stmt->bindValue(7, $c->getDataCriacao());
             return $stmt->execute();
         }
         catch(PDOException $e){
