@@ -3,7 +3,7 @@
 require_once "Conexao.php";
 require_once "Categorias.php";
 
-class CategoriaModel
+class CategoriasModel
 {
 
     public $tabela = "categoria";

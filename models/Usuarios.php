@@ -1,12 +1,12 @@
 <?php
-
+require_once "Data.php";
 class Usuario
 {
     private int $id_Usuario;
     private string $nome_Usuario;
     private string $email_Usuario;
     private string $senha_Usuario;
-    //private string $data_Criacao;
+    private Data $data_Criacao;
     /**
      * Get the value of id_Usuario
      */
@@ -78,21 +78,19 @@ class Usuario
 
         return $this;
     }
-    /**
+     /**
      * Get the value of data_Criacao
      */
-    //public function getDataCriacao(): string
-    //{
-        //return $this->data_Criacao;
-    //}
-
+    public function getDataCriacao()
+    {
+        return $this->data_Criacao;
+    }
     /**
      * Set the value of data_Criacao
      */
-    //public function setDataCriacao(string $data_Criacao): self
-    //{
-    //    $this->data_Criacao = $data_Criacao;
+    public function setDataCriacao()
+    {
+        $this->data_Criacao = new Data(date('d'), date('m'), date('Y'));
+    }
 
-    //    return $this;
-    //}
 }

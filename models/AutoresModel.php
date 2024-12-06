@@ -3,7 +3,7 @@
 require_once "Conexao.php";
 require_once "Autores.php";
 
-class AutorModel
+class AutoresModel
 {
 
     public $tabela = "autor";

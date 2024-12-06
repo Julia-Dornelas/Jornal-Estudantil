@@ -51,6 +51,9 @@ class Comentario
     {
         return $this->data_Publicacao;
     }
+    /**
+     * Set the value of data_Publicacao
+     */
     public function setDataPublicacao()
     {
         $this->data_Publicacao = new Data(date('d'), date('m'), date('Y'));

@@ -3,21 +3,22 @@
 require_once "Conexao.php";
 require_once "Administradores.php";
 
-class CategoriaModel
+class AdministradoresModel
 {
 
     public $tabela = "administrador";
 
-    public function create(Administrador $c){
+    public function create($c){
         try{
-            $sql = "INSERT INTO $this->tabela (nome_Administrador, email_Administrador, senha_Administrador, telefone_Administrador, n_Aprovacoes, salario, carga_horaria) VALUES (?,?,?,?,0,?, ?)";
+            $sql = "INSERT INTO $this->tabela (nome_Administrador, email_Administrador, senha, salario, telefone, carga_horaria, dt_criacao, n_Aprovacoes) VALUES (?,?,?,?,?,?,?,0)";
             $stmt = Conexao::getConn()->prepare($sql);
             $stmt->bindValue(1, $c->getNomeAdministrador());
             $stmt->bindValue(2, $c->getEmailAdministrador());
             $stmt->bindValue(3, $c->getSenhaAdministrador());
-            $stmt->bindValue(4, $c->getTelefoneAdministrador());
-            $stmt->bindValue(6, $c->getSalario());
-            $stmt->bindValue(7, $c->getCargaHoraria());
+            $stmt->bindValue(4, $c->getSalario());
+            $stmt->bindValue(5, $c->getTelefoneAdministrador());
+            $stmt->bindValue(6, $c->getCargaHoraria());
+            $stmt->bindValue(7, $c->getDataCriacao());
             return $stmt->execute();
         }
         catch(PDOException $e){

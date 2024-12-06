@@ -14,7 +14,7 @@ class Data
     }
     public function __toString()
     {
-        return $data = $this->getDia() . "/" . $this->getMes() . "/" . $this->getAno();
+        return $data = $this->getAno() . "-" . $this->getMes() . "-" . $this->getDia();
     }
     public function imprimirDataBanco()
     {

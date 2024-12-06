@@ -1,10 +1,10 @@
 <?php
-
+require_once "Data.php";
 class Noticia
 {
     private int $id_Noticia;
     private string $conteudo;
-    private int $data_Publicacao;
+    private Data $data_Publicacao;
     private string $fonte;
     private string $resumo;
     private string $titulo;
@@ -50,19 +50,16 @@ class Noticia
     /**
      * Get the value of data_Publicacao
      */
-    public function getDataPublicacao(): int
+    public function getDataPublicacao()
     {
         return $this->data_Publicacao;
     }
-
     /**
      * Set the value of data_Publicacao
      */
-    public function setDataPublicacao(int $data_Publicacao): self
+    public function setDataPublicacao()
     {
-        $this->data_Publicacao = $data_Publicacao;
-
-        return $this;
+        $this->data_Publicacao = new Data(date('d'), date('m'), date('Y'));
     }
 
     /**

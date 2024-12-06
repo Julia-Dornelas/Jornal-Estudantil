@@ -3,7 +3,7 @@
 require_once "Conexao.php";
 require_once "Usuarios.php";
 
-class UsuarioModel
+class UsuariosModel
 {
 
     public $tabela = "usuario";

@@ -3,7 +3,7 @@
 require_once "Conexao.php";
 require_once "Comentarios.php";
 
-class ComentarioModel
+class ComentariosModel
 {
 
     public $tabela = "comentario";

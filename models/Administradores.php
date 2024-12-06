@@ -1,5 +1,5 @@
 <?php
-
+require_once("Data.php");
 class Administrador
 {
     private int $id_Administrador;
@@ -7,7 +7,7 @@ class Administrador
     private string $email_Administrador;
     private string $senha_Administrador;
     private string $telefone_Administrador;
-    //private string $data_Criacao;
+    private Data $data_Criacao;
     private int $n_Aprovacoes;
     private float $salario;
     private float $carga_Horaria;
@@ -106,20 +106,17 @@ class Administrador
     /**
      * Get the value of data_Criacao
      */
-    //public function getDataCriacao(): string
-    //{
-    //    return $this->data_Criacao;
-    //}
-
+    public function getDataCriacao()
+    {
+        return $this->data_Criacao;
+    }
     /**
      * Set the value of data_Criacao
      */
-    //public function setDataCriacao(string $data_Criacao): self
-    //{
-    //   $this->data_Criacao = $data_Criacao;
-
-    //    return $this;
-    //}
+    public function setDataCriacao()
+    {
+        $this->data_Criacao = new Data(date('d'), date('m'), date('Y'));
+    }
 
     /**
      * Get the value of n_Aprovacoes

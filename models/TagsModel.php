@@ -3,7 +3,7 @@
 require_once "Conexao.php";
 require_once "Tags.php";
 
-class TagModel
+class TagsModel
 {
 
     public $tabela = "tag";
