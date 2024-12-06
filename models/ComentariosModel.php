@@ -6,7 +6,7 @@ require_once "Comentarios.php";
 class ComentarioModel
 {
 
-    public $tabela = "/*tabela*/";
+    public $tabela = "comentario";
 
     public function create(Comentario $c){
         try{

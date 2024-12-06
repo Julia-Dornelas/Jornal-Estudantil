@@ -6,7 +6,7 @@ require_once "Noticias.php";
 class NoticiaModel
 {
 
-    public $tabela = "/*tabela*/";
+    public $tabela = "noticia";
 
     public function create(Noticia $c){
         try{

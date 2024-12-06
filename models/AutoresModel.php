@@ -6,7 +6,7 @@ require_once "Autores.php";
 class AutorModel
 {
 
-    public $tabela = "/*tabela*/";
+    public $tabela = "autor";
 
     public function create(Autor $c){
         try{

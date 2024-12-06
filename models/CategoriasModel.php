@@ -6,7 +6,7 @@ require_once "Categorias.php";
 class CategoriaModel
 {
 
-    public $tabela = "/*tabela*/";
+    public $tabela = "categoria";
 
     public function create(Categoria $c){
         try{

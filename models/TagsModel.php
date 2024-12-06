@@ -6,7 +6,7 @@ require_once "Tags.php";
 class TagModel
 {
 
-    public $tabela = "/*tabela*/";
+    public $tabela = "tag";
 
     public function create(Tag $c){
         try{

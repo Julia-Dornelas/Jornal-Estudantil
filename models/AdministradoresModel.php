@@ -6,7 +6,7 @@ require_once "Administradores.php";
 class CategoriaModel
 {
 
-    public $tabela = "/*tabela*/";
+    public $tabela = "administrador";
 
     public function create(Administrador $c){
         try{
